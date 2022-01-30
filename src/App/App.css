@@ -1,0 +1,26 @@
+@font-face {
+    font-family: Poppins;
+    src: url(poppins-font.ttf);
+}
+
+html {
+    height: 100%;
+    background: url("https://wallpapercave.com/wp/wp3431606.jpg");
+    background-size: cover;
+    color: black;
+    font-family: "Poppins", serif;
+    user-select: none;
+}
+
+.center-vertical {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.center-horizontal {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+}

@@ -1,0 +1,40 @@
+#GeneralButton {
+    transition-duration: 300ms;
+    height: 50px;
+    background: #202024;
+    width: 150px;
+    border-radius: 5px;
+    border: none;
+    display: block;
+    color: white;
+    font-family: Poppins, serif;
+    font-size: 20px;
+    padding-left: 10px;
+    position: relative;
+}
+
+#GeneralButton p {
+    margin-top: 7px;
+}
+
+#GeneralButton:hover {
+    transition-duration: 300ms;
+    background: #1b1b1f;
+    cursor: pointer;
+
+}
+
+#GeneralButton:disabled {
+    transition-duration: 300ms;
+    cursor: default;
+    filter: opacity(50%);
+}
+
+#GeneralButton img {
+    float: left;
+    width: 30px;
+    padding: 5px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
